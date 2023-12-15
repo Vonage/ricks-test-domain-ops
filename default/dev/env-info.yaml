@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: -default-dev
+  description: 
+  annotations:
+    github.com/project-slug: undefined/default/dev
+spec:
+  owner: 
+  type: release-channel-environment
+  system: -default
+  lifecycle: DEV
+  domain: 
